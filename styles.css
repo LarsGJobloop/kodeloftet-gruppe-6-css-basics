@@ -1,32 +1,30 @@
-html {
-  font-family: 'Lemon', serif;
-}
-
+/* Resetting default styles */
 body {
   margin: 0px;
 }
 
-p {
-  background-color: coral;
-}
+/* Styling for the navbar */
+.main-navbar {
+  /* Layout Styles */
+  display: flex;
+  justify-content: sapace-between;
 
-.text-pink {
-  color: pink;
-}
+  /* Colors */
+  background-color: rgb(90, 0, 50);
+  color: orange;
+}s
 
-.background-blue {
-  background-color: blue;
-}
-
-#paragraph {
-  padding: 100px;
-}
-
+/* Styling for the main section */
 .main-content {
-  padding: 50px;
-  background-color: aquamarine;
-  font-size: 72px;
-  font-weight: bold;
 }
 
-p > .child-element {}
+/* Styling for our footer section */
+.main-footer {
+}
+
+/* Small pieces of reusable css classes */
+.border-black {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
