@@ -1,3 +1,11 @@
+html {
+  font-family: 'Lemon', serif;
+}
+
+body {
+  margin: 0px;
+}
+
 p {
   background-color: coral;
 }
@@ -9,3 +17,16 @@ p {
 .background-blue {
   background-color: blue;
 }
+
+#paragraph {
+  padding: 100px;
+}
+
+.main-content {
+  padding: 50px;
+  background-color: aquamarine;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+p > .child-element {}
