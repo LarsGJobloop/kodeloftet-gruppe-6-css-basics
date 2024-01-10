@@ -3,6 +3,10 @@ body {
   margin: 0px;
 }
 
+a {
+  color: inherit;
+}
+
 /* Styling for the navbar */
 .main-navbar {
   /* Layout Styles */
@@ -12,7 +16,7 @@ body {
   /* Colors */
   background-color: rgb(90, 0, 50);
   color: orange;
-}s
+}
 
 /* Styling for the main section */
 .main-content {
@@ -27,4 +31,8 @@ body {
   border-width: 2px;
   border-color: black;
   border-style: solid;
+}
+
+.text-white {
+  color: rgb(253, 253, 253);
 }
